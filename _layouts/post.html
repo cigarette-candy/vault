@@ -1,8 +1,14 @@
 ---
 layout: default
 ---
-<h3 class="card-title text-lowercase">{{ page.title }}</h3>
-
+<header>
+    <div class="menu">
+      <ul class="unstyled-list">
+        <li>{{ page.title }}</li>
+        <li>Published: {{ page.date }}</li>
+      </ul>
+    </div>
+  </header>
 <p> Published: {{ page.date }} </p>
 
 {{ content }}
