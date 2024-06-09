@@ -4,7 +4,7 @@
 // variables
 $base-font-family:     'Merriweather', monospace !default;
 
-$base-font-size:       18px !default;
+$base-font-size:       12px !default;
 $mobile-font-size:     14px !default;
 $base-line-height:     1.5 !default;
 $container-width:      90% !default;
@@ -87,8 +87,16 @@ p {
 
 p.x { 
     font-size: 30px;
-    border-style: dotted;
+    text-transform: lowercase;
+    text-align: center;
 }
+
+p.y { 
+    font-size: 20px;
+    text-transform: lowercase;
+    text-align: left;
+}
+
 
 header { 
     margin-top: 25px;  
