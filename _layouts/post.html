@@ -1,11 +1,12 @@
 ---
 layout: default
 ---
-<header>
-    <div class="menu">
-      <ul class="unstyled-list">
-        <li>{{ page.title }}</li>
-        <li>Published: {{ page.date }}</li>
+<script async type="text/json">
+    {
+        "title":{{ page.title }},
+        "description": {{page.description}},
+        "date": {{ page.date | date: '%B %d, %Y' }}
+    }
       </ul>
     </div>
   </header>
