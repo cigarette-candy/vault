@@ -12,9 +12,9 @@ layout: default
 </d-front-matter>
 <div class="post distill">
     <d-title>
-      <h2 border-style: solid>{{ page.title }}</h2>
-      <h6>{{ page.description }}</h6>
-      <h6 border-style: solid>Created in {{ page.date | date: '%B %d, %Y' }}</h6>
+      <p border-style: solid>{{ page.title }}</p>
+      <p>{{ page.description }}</p>
+      <p border-style: solid>Created in {{ page.date | date: '%B %d, %Y' }}</p>
     </d-title>
 </div>
 {{ content }}
