@@ -10,11 +10,11 @@ layout: default
     }
     </script>
 </d-front-matter>
-<div class="solid">
+<div class="post distill">
     <d-title>
-      <h2>{{ page.title }}</h2>
+      <h2 class="solid">{{ page.title }}</h2>
       <h6>{{ page.description }}</h6>
-      <h6>Created in {{ page.date | date: '%B %d, %Y' }}</h6>
+      <h6 class="solid">Created in {{ page.date | date: '%B %d, %Y' }}</h6>
     </d-title>
 </div>
 {{ content }}
