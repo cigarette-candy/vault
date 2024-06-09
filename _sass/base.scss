@@ -92,8 +92,14 @@ p.x {
 }
 
 p.y { 
+    font-size: 16px;
+    text-transform: capitalize;
+    text-align: left;
+}
+
+p.z { 
     font-size: 20px;
-    text-transform: lowercase;
+    text-transform: capitalize;
     text-align: left;
 }
 
