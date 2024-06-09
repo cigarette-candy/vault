@@ -88,12 +88,14 @@ p {
 p.x { 
     font-size: 30px;
     text-transform: lowercase;
-    text-align: center;
+    text-align: center;  
+    font-weight: bold;
 }
 
 p.y { 
     font-size: 16px;
     text-align: left;
+
 }
 
 p.z { 
